@@ -12,7 +12,7 @@ function Footer() {
       <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-16">
         <div
           data-aos="fade-right"
-          data-aos-duration="600"
+          data-aos-duration="500"
           className="space-y-5"
         >
           <div>
@@ -35,7 +35,7 @@ function Footer() {
         </div>
         <div
           data-aos="fade-left"
-          data-aos-duration="600"
+          data-aos-duration="500"
           className="space-y-5"
         >
           <h1 className="font-semibold text-white ">Our Pruduct</h1>
@@ -49,7 +49,7 @@ function Footer() {
         </div>
         <div
           data-aos="fade-right"
-          data-aos-duration="600"
+          data-aos-duration="500"
           className="space-y-5"
         >
           <h1 className="font-semibold text-white">Resources</h1>
@@ -64,7 +64,7 @@ function Footer() {
         </div>
         <div
           data-aos="fade-left"
-          data-aos-duration="600"
+          data-aos-duration="500"
           className="space-y-5"
         >
           <h1 className="font-semibold text-white">About Rentcars</h1>
@@ -78,7 +78,7 @@ function Footer() {
         </div>
         <div
           data-aos="fade-right"
-          data-aos-duration="600"
+          data-aos-duration="500"
           className="space-y-5"
         >
           <h1 className="font-semibold text-white">Follow Us</h1>
@@ -90,7 +90,7 @@ function Footer() {
         </div>
       </div>
       <div
-        className="bg-red-600d container mx-auto flex flex-col justify-center items-center text-center text-[12px] py-5 border-t border-white/20 "
+        className="bg-red-500d container mx-auto flex flex-col justify-center items-center text-center text-[12px] py-5 border-t border-white/20 "
       >
         <p className="">© 2024 Rentcars. All rights reserved</p>
         <p>

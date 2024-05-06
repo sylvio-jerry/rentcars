@@ -15,7 +15,7 @@ function Review({ stars, description, author, image, location }) {
   return (
     <div
       data-aos="fade-right"
-      data-aos-duration="1000"
+      data-aos-duration="500"
       className="
     flex flex-col 
     lg:flex-row
