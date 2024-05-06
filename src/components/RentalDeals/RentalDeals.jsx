@@ -63,7 +63,7 @@ function RentalDeals() {
       <CustomTitle title="POPULAR RENTAL DEALS" />
       <h1
         data-aos="fade-up"
-        data-aos-duration="1500"
+        data-aos-duration="500"
         className="text-3xl font-semibold py-10 tracking-widest text-center "
       >
         Most popular cars rental deals
@@ -72,16 +72,14 @@ function RentalDeals() {
         {carsData.map((cars, index) => (
           <div
             data-aos={index < 2 ? "zoom-in-right" : "zoom-in-left"}
-            data-aos-duration="800"
+            data-aos-duration="500"
           >
             <PopularCars key={index} {...cars} />
           </div>
         ))}
       </div>
       <button
-        data-aos="fade-right"
-        data-aos-duration="800"
-        className="w-[216px] h-[48px] flex justify-center gap-x-4 items-center  rounded-lg px-5 py-3 border duration-300 hover:scale-105"
+        className="w-[216px] h-[48px] flex justify-center gap-x-4 items-center  rounded-lg px-5 py-3 border transition-all duration-300 hover:scale-105"
       >
         <div className="">Show all vehicles</div>
         <GoArrowRight className="text-black text-[20px]" color="black" />

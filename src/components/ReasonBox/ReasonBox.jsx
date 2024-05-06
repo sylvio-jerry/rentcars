@@ -4,7 +4,7 @@ function ReasonBox({ icon, title, description }) {
   return (
     <div
       data-aos="fade-down-left"
-      data-aos-duration="1500"
+      data-aos-duration="500"
       className="flex gap-x-5 w-full lg:w-[410px] items-center"
     >
       <div className="p-4 bg-primary/30 flex justify-center items-center rounded-xl">

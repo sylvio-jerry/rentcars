@@ -21,14 +21,14 @@ function DownloadApp() {
       <div className="w-full h-full space-y-5 md:min-w-[300px] text-center flex flex-col justify-center max-lg:items-center">
         <CustomTitle title="DOWNLOAD" />
         <div className=" text-2xl md:text-5xl w-full md:w-[480px] flex flex-col items-center lg:items-start justify-start gap-10 lg:text-start text-center">
-          <div data-aos="zoom-out" data-aos-duration="1200" >
+          <div data-aos="zoom-out" data-aos-duration="500" >
             <p className="font-semibold">Download Rentcars </p>{" "}
             <div className="flex gap-2">
               <p className="font-semibold">App for</p>{" "}
-              <span className="text-primary font-bold" data-aos="flip-left" data-aos-duration="3000">FREE</span>
+              <span className="text-primary font-bold" data-aos="flip-left" data-aos-duration="500">FREE</span>
             </div>
           </div>
-          <p className="text-xl" data-aos="zoom-out" data-aos-duration="1200">
+          <p className="text-xl" data-aos="zoom-out" data-aos-duration="500">
             For faster, easier booking and exclusive deals.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
@@ -45,7 +45,7 @@ function DownloadApp() {
           </div>
         </div>
       </div>
-      <div data-aos="fade-up" data-aos-duration="1200" className="flex- flex justify-center items-end h-[200px] md:h-[300px] lg:h-[400px] ">
+      <div data-aos="fade-up" data-aos-duration="500" className="flex- flex justify-center items-end h-[200px] md:h-[300px] lg:h-[400px] ">
         <img
           src={RentCarsApp}
           className="object-contain object-center  h-full "

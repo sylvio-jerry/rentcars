@@ -49,7 +49,7 @@ function Reason() {
     >
       <div
         data-aos="fade-right"
-        data-aos-duration="1500"
+        data-aos-duration="500"
         className=" flex justify-start items-center"
         style={bgImage}
       >
@@ -61,7 +61,7 @@ function Reason() {
       </div>
       <div
         data-aos="fade-left"
-        data-aos-duration="1500"
+        data-aos-duration="500"
         className=" flex flex-col items-center lg:items-end  text-start max-lg:mx-5"
       >
         <div className=" w-full flex flex-col  max-lg:items-center px-[8%]r lg:max-w-[576px] ">

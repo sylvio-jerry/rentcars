@@ -31,7 +31,7 @@ function WorkingStep() {
         <CustomTitle title="HOW IT WORKS" />
         <h1
           data-aos="fade-up"
-          data-aos-duration="1500"
+          data-aos-duration="500"
           className="text-3xl font-semibold py-10 tracking-widest text-center"
         >
           Rent with following 3 working steps

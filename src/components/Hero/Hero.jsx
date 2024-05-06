@@ -18,7 +18,7 @@ function Hero() {
       <div className="w-full h-full gap-10  grid grid-cols-1 lg:grid-cols-3 ">
         <div className="h-[75%]  flex flex-col justify-center items-center lg:items-start order-2 lg:order-1">
           <div className="text-2xl md:text-5xl w-full md:w-[450px] flex flex-col items-center lg:items-start justify-start   gap-10 lg:text-start text-center">
-          <div data-aos="zoom-out" data-aos-duration="1200" >
+          <div data-aos="zoom-out" data-aos-duration="500" >
               <p className="font-semibold">Find, book and </p>{" "}
               <div className="flex gap-2">
                 <p className="font-semibold">rent a car</p>{" "}
@@ -31,7 +31,7 @@ function Hero() {
                 </div>
               </div>
             </div>
-            <p className="text-xl " data-aos="zoom-out" data-aos-duration="3000">
+            <p className="text-xl " data-aos="zoom-out" data-aos-duration="500">
               Get a car wherever and whenever you need it with your IOS and
               Android device.
             </p>
@@ -51,7 +51,7 @@ function Hero() {
         </div>
         <div 
         data-aos="fade-down"
-        data-aos-duration="2000"
+        data-aos-duration="500"
         data-aos-once="true"
         className="flex-1 lg:col-span-2 self-center order-1 lg:order-2 ">
           <div className="flex justify-end items-center">

@@ -52,7 +52,7 @@ function Testimonials() {
     slidesToScroll: 1,
     initialSlide: 0,
     mobileFirst: true,
-    lazyLoad: true,
+    lazyLoad: 'progressive',
     centerMode: true,
     responsive: [
       {
@@ -121,7 +121,7 @@ function Testimonials() {
           <CustomTitle title="Testimonials" />
           <h1
             data-aos="fade-up"
-            data-aos-duration="1500"
+            data-aos-duration="500"
             className="text-xl lg:text-2xl font-semibold py-10 tracking-widest text-center lg:text-start"
           >
             What peole say about us ?
